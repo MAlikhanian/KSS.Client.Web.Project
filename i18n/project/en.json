@@ -1,0 +1,115 @@
+{
+  "navProjects": "Projects",
+  "navWorksites": "Worksites",
+  "common": {
+    "add": "Add",
+    "create": "Create",
+    "edit": "Edit",
+    "update": "Update",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "remove": "Remove",
+    "confirm": "Confirm",
+    "close": "Close",
+    "search": "Search",
+    "reset": "Reset",
+    "actions": "Actions",
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "noResults": "No results found",
+    "active": "Active",
+    "inactive": "Inactive",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "none": "None",
+    "english": "English",
+    "persian": "Persian",
+    "confirmDeleteTitle": "Confirm deletion",
+    "confirmDeleteMessage": "Are you sure you want to delete this item? This action cannot be undone.",
+    "toastCreated": "Created successfully",
+    "toastUpdated": "Updated successfully",
+    "toastDeleted": "Deleted successfully",
+    "toastError": "Something went wrong",
+    "toastLoadError": "Failed to load data"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Manage projects and their localized names",
+    "addTitle": "New Project",
+    "editTitle": "Edit Project",
+    "empty": "No projects yet",
+    "columns": {
+      "code": "Code",
+      "nameEn": "Name (English)",
+      "nameFa": "Name (Persian)",
+      "isActive": "Status",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "form": {
+      "code": "Code",
+      "codePlaceholder": "e.g. PRJ001",
+      "codeHint": "English letters and digits only",
+      "nameEn": "Name (English)",
+      "nameEnPlaceholder": "Project name in English",
+      "nameFa": "Name (Persian)",
+      "nameFaPlaceholder": "Project name in Persian",
+      "isActive": "Active"
+    },
+    "validation": {
+      "codeRequired": "Code is required",
+      "codeFormat": "Code must contain English letters and digits only",
+      "codeMaxLength": "Code must be at most 10 characters",
+      "nameRequired": "Name is required"
+    }
+  },
+  "worksites": {
+    "title": "Worksites",
+    "description": "Manage worksites under projects and their localized names",
+    "addTitle": "New Worksite",
+    "editTitle": "Edit Worksite",
+    "empty": "No worksites yet",
+    "columns": {
+      "code": "Code",
+      "project": "Project",
+      "nameEn": "Name (English)",
+      "nameFa": "Name (Persian)",
+      "supervisor": "Supervisor",
+      "isActive": "Status",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "filters": {
+      "project": "Filter by project",
+      "allProjects": "All projects",
+      "status": "Status",
+      "search": "Search worksites"
+    },
+    "form": {
+      "project": "Project",
+      "projectPlaceholder": "Select a project",
+      "code": "Code",
+      "codePlaceholder": "e.g. WS001",
+      "codeHint": "English letters and digits only",
+      "nameEn": "Name (English)",
+      "nameEnPlaceholder": "Worksite name in English",
+      "nameFa": "Name (Persian)",
+      "nameFaPlaceholder": "Worksite name in Persian",
+      "supervisor": "Supervisor",
+      "supervisorPlaceholder": "Search and select a person",
+      "supervisorNone": "No supervisor",
+      "isActive": "Active"
+    },
+    "validation": {
+      "projectRequired": "Project is required",
+      "codeRequired": "Code is required",
+      "codeFormat": "Code must contain English letters and digits only",
+      "codeMaxLength": "Code must be at most 20 characters",
+      "nameRequired": "Name is required"
+    }
+  }
+}
