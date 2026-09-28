@@ -1,0 +1,115 @@
+{
+  "navProjects": "پروژه‌ها",
+  "navWorksites": "کارگاه‌ها",
+  "common": {
+    "add": "افزودن",
+    "create": "ایجاد",
+    "edit": "ویرایش",
+    "update": "به‌روزرسانی",
+    "save": "ذخیره",
+    "cancel": "انصراف",
+    "delete": "حذف",
+    "remove": "حذف",
+    "confirm": "تأیید",
+    "close": "بستن",
+    "search": "جستجو",
+    "reset": "بازنشانی",
+    "actions": "عملیات",
+    "loading": "در حال بارگذاری...",
+    "saving": "در حال ذخیره...",
+    "noResults": "نتیجه‌ای یافت نشد",
+    "active": "فعال",
+    "inactive": "غیرفعال",
+    "yes": "بله",
+    "no": "خیر",
+    "all": "همه",
+    "none": "هیچ‌کدام",
+    "english": "انگلیسی",
+    "persian": "فارسی",
+    "confirmDeleteTitle": "تأیید حذف",
+    "confirmDeleteMessage": "آیا از حذف این مورد مطمئن هستید؟ این عملیات قابل بازگشت نیست.",
+    "toastCreated": "با موفقیت ایجاد شد",
+    "toastUpdated": "با موفقیت به‌روزرسانی شد",
+    "toastDeleted": "با موفقیت حذف شد",
+    "toastError": "خطایی رخ داد",
+    "toastLoadError": "بارگذاری اطلاعات ناموفق بود"
+  },
+  "projects": {
+    "title": "پروژه‌ها",
+    "description": "مدیریت پروژه‌ها و نام‌های محلی‌شده آن‌ها",
+    "addTitle": "پروژه جدید",
+    "editTitle": "ویرایش پروژه",
+    "empty": "هنوز پروژه‌ای ثبت نشده است",
+    "columns": {
+      "code": "کد",
+      "nameEn": "نام (انگلیسی)",
+      "nameFa": "نام (فارسی)",
+      "isActive": "وضعیت",
+      "createdAt": "تاریخ ایجاد",
+      "updatedAt": "تاریخ به‌روزرسانی",
+      "actions": "عملیات"
+    },
+    "form": {
+      "code": "کد",
+      "codePlaceholder": "مثال: PRJ001",
+      "codeHint": "فقط حروف انگلیسی و ارقام",
+      "nameEn": "نام (انگلیسی)",
+      "nameEnPlaceholder": "نام پروژه به انگلیسی",
+      "nameFa": "نام (فارسی)",
+      "nameFaPlaceholder": "نام پروژه به فارسی",
+      "isActive": "فعال"
+    },
+    "validation": {
+      "codeRequired": "کد الزامی است",
+      "codeFormat": "کد باید فقط شامل حروف انگلیسی و ارقام باشد",
+      "codeMaxLength": "کد باید حداکثر ۱۰ کاراکتر باشد",
+      "nameRequired": "نام الزامی است"
+    }
+  },
+  "worksites": {
+    "title": "کارگاه‌ها",
+    "description": "مدیریت کارگاه‌های زیرمجموعه پروژه‌ها و نام‌های محلی‌شده آن‌ها",
+    "addTitle": "کارگاه جدید",
+    "editTitle": "ویرایش کارگاه",
+    "empty": "هنوز کارگاهی ثبت نشده است",
+    "columns": {
+      "code": "کد",
+      "project": "پروژه",
+      "nameEn": "نام (انگلیسی)",
+      "nameFa": "نام (فارسی)",
+      "supervisor": "سرپرست",
+      "isActive": "وضعیت",
+      "createdAt": "تاریخ ایجاد",
+      "updatedAt": "تاریخ به‌روزرسانی",
+      "actions": "عملیات"
+    },
+    "filters": {
+      "project": "فیلتر بر اساس پروژه",
+      "allProjects": "همه پروژه‌ها",
+      "status": "وضعیت",
+      "search": "جستجوی کارگاه‌ها"
+    },
+    "form": {
+      "project": "پروژه",
+      "projectPlaceholder": "یک پروژه انتخاب کنید",
+      "code": "کد",
+      "codePlaceholder": "مثال: WS001",
+      "codeHint": "فقط حروف انگلیسی و ارقام",
+      "nameEn": "نام (انگلیسی)",
+      "nameEnPlaceholder": "نام کارگاه به انگلیسی",
+      "nameFa": "نام (فارسی)",
+      "nameFaPlaceholder": "نام کارگاه به فارسی",
+      "supervisor": "سرپرست",
+      "supervisorPlaceholder": "جستجو و انتخاب شخص",
+      "supervisorNone": "بدون سرپرست",
+      "isActive": "فعال"
+    },
+    "validation": {
+      "projectRequired": "انتخاب پروژه الزامی است",
+      "codeRequired": "کد الزامی است",
+      "codeFormat": "کد باید فقط شامل حروف انگلیسی و ارقام باشد",
+      "codeMaxLength": "کد باید حداکثر ۲۰ کاراکتر باشد",
+      "nameRequired": "نام الزامی است"
+    }
+  }
+}
